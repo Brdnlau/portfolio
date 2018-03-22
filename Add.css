@@ -1,0 +1,156 @@
+.box {
+    border:10px solid green;
+    width:700px;
+    height:900px;
+    margin-bottom: 50px;
+}
+.green{
+    background-color: green;
+}
+.line {
+    border:10px;
+}
+.center {
+    margin-left:20%;
+    margin-right:30%;
+}
+
+.indent.aboutme {
+    text-indent: 5em;
+    font-size:18px;
+}
+
+.sizeone {
+    font-size:20px;
+}
+
+.indent.project {
+    text-indent: 5em;
+    font-size: 16px;
+}
+
+.white {
+    color: white;
+    
+}
+
+.middle {
+    text-align: center;
+}
+
+.divider {
+    height:5px;
+    background-color: #1596db;
+    width: 80%;
+    min-width: 50px;
+    max-width: 1000px;
+}
+
+footer {
+    background-image: url("Images/Minimalz.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.barlow{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+.jumbotron {
+    background-color: white;
+}
+.half-black {
+    background: rgba(0, 0, 0, 0.5);  
+}
+.ranchers {
+    font-family: 'Ranchers',;
+    font-weight:bold;
+}
+
+#navbar {
+    background-image: url("Images/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin:0;
+}
+
+.landscape {
+    width: 350px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#navhome {
+  transition: 0.3s ease;
+  border-bottom: 4px solid #3fa46a;
+  margin: 0 20px;
+}
+#navhome:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+#navabout {
+  transition: 0.3s ease;
+  border-bottom: 4px solid #3fa46a;
+  margin: 0 20px;
+}
+#navabout:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+#navresume {
+  transition: 0.3s ease;
+  border-bottom: 4px solid #3fa46a;
+  margin: 0 20px;
+}
+#navresume:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+#navproj {
+  transition: 0.3s ease;
+  border-bottom: 4px solid #3fa46a;
+  margin: 0 20px;
+}
+#navproj:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+#navcontact {
+  transition: 0.3s ease;
+  border-bottom: 4px solid #3fa46a;
+  margin: 0 20px;
+}
+#navcontact:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+.portrait {
+    height: 500px;
+    width: 350px;
+}
+
+.aboutmeme {
+    height: 500px;
+    width: auto;
+}
+
+@media (max-width: 55em) {
+.box {
+    border: 0;
+    width:340px;
+    height:440px;
+    margin-bottom: 50px;
+}
+}
