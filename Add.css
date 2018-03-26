@@ -1,3 +1,50 @@
+.paper {
+  background: #fff;
+  padding: 30px;
+  position: relative;
+  width:700px;
+  height:1050px;
+  margin-bottom: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -350px;
+  margin-top: 3em;
+}
+
+.paper,
+.paper::before,
+.paper::after {
+  /* Styles to distinguish sheets from one another */
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+  border: 1px solid #bbb;
+}
+
+.paper::before,
+.paper::after {
+  content: "";
+  position: absolute;
+  height: 95%;
+  width: 99%;
+  background-color: #eee;
+}
+
+.paper::before {
+  right: 15px;
+  top: 0;
+  transform: rotate(-1deg);
+  z-index: -1;
+}
+
+.paper::after {
+  top: 5px;
+  right: -5px;
+  transform: rotate(1deg);
+  z-index: -2;
+}
+
+.somespace{
+    margin-bottom:2em;
+}
 .box {
     border:10px solid green;
     width:700px;
@@ -44,7 +91,18 @@
     width: 80%;
     min-width: 50px;
     max-width: 1000px;
+    margin-bottom: 5em;
 }
+
+.divider.project{
+    height:5px;
+    background-color: #1596db;
+    width: 80%;
+    min-width: 50px;
+    max-width: 1200px;
+    margin-bottom: 5em;
+}
+
 
 footer {
     background-image: url("Images/Minimalz.jpg");
