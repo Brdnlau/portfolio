@@ -48,8 +48,8 @@
 .box {
     border:10px solid green;
     width:700px;
-    height:900px;
-    margin-bottom: 50px;
+    height:950px;
+    margin-bottom: 60px;
 }
 .green{
     background-color: green;
@@ -72,13 +72,13 @@
 }
 
 .indent.project {
-    text-indent: 5em;
+    text-indent: 4em;
     font-size: 16px;
 }
 
 .white {
     color: white;
-    
+
 }
 
 .middle {
@@ -109,7 +109,7 @@ footer {
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .barlow{
@@ -121,7 +121,7 @@ footer {
     background-color: white;
 }
 .half-black {
-    background: rgba(0, 0, 0, 0.5);  
+    background: rgba(0, 0, 0, 0.5);
 }
 .ranchers {
     font-family: 'Ranchers',;
@@ -150,7 +150,7 @@ footer {
 #navhome:hover {
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
-  padding: 6px 0; 
+  padding: 6px 0;
 }
 
 #navabout {
@@ -161,7 +161,7 @@ footer {
 #navabout:hover {
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
-  padding: 6px 0; 
+  padding: 6px 0;
 }
 #navresume {
   transition: 0.3s ease;
@@ -171,7 +171,7 @@ footer {
 #navresume:hover {
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
-  padding: 6px 0; 
+  padding: 6px 0;
 }
 #navproj {
   transition: 0.3s ease;
@@ -181,7 +181,7 @@ footer {
 #navproj:hover {
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
-  padding: 6px 0; 
+  padding: 6px 0;
 }
 #navcontact {
   transition: 0.3s ease;
@@ -191,7 +191,7 @@ footer {
 #navcontact:hover {
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
-  padding: 6px 0; 
+  padding: 6px 0;
 }
 
 .portrait {
@@ -200,7 +200,7 @@ footer {
 }
 
 .aboutmeme {
-    height: 500px;
+    height: 200px;
     width: auto;
 }
 
